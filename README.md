@@ -1,3 +1,4 @@
+
 **# Buld_Data_Disk_Copier**
 
 This script automates the process of copying DVD contents to a selected destination folder. It continuously waits for a disc to be inserted, copies its contents, logs the process, and ejects the disc upon completion.
@@ -82,4 +83,3 @@ Notes
   The script uses robocopy for copying, which is optimized for large file transfers.
   Destination folder names are based on the DVD’s volume label.
   The log file is saved in the same directory as the script.
-
