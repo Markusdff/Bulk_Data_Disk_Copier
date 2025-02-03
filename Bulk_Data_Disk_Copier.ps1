@@ -1,3 +1,13 @@
+##########################################################################
+# Enhanced DVD Archiving Script
+# Features:
+# - Beeps when a DVD copy completes
+# - Color-coded output for clarity
+# - Displays disk used space before copying
+# - Shows copied folder size after completion
+# - Creates a detailed log with timestamps
+##########################################################################
+
 Add-Type -AssemblyName System.Windows.Forms
 
 # Generate log file name based on current timestamp
