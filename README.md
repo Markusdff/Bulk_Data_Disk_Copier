@@ -50,8 +50,7 @@ Completion & Repeat:
 Installation & Usage
 
   Download or Clone the Script:
-    git clone https://github.com/your-repo/DVD-Archiving-Script.git
-  
+ 
   Run PowerShell as Administrator.
   
   Set Execution Policy (if required):
