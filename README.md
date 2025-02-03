@@ -4,7 +4,7 @@
 This script automates the process of copying DVD contents to a selected destination folder. It continuously waits for a disc to be inserted, copies its contents, logs the process, and ejects the disc upon completion.
 
 **Overview**
-  This PowerShell script automates the process of copying DVD contents to a designated destination folder. It continuously monitors the selected DVD drive, detects when a new disc is inserted, copies its contents, logs the process, and ejects the disc upon completion. The script is designed to streamline the archiving of DVDs by minimizing manual intervention.  You can also run multiple instances of this script simultaneously if you have multiple optical drives.
+  This PowerShell script automates the process of copying DVD contents to a designated destination folder. It continuously monitors the selected DVD drive, detects when a new disc is inserted, copies its contents, logs the process, and ejects the disc upon completion. The script is designed to streamline the archiving of DVDs by minimizing manual intervention.
 
 **Features**
   Automatic Disc Detection: Waits for a new DVD to be inserted and starts the copying process automatically.
@@ -59,7 +59,7 @@ Installation & Usage
   Set-ExecutionPolicy Unrestricted -Scope Process
   
   Execute the Script:
-  .\DVD_Archiving_Script.ps1
+  .\Buld_Data_Disk_Copier.ps1
   
   Follow On-Screen Instructions:
     Select the DVD drive.
@@ -71,7 +71,7 @@ Example Log Output
   [2025-02-03 14:30:01] Waiting for a new disc in drive D:...
   [2025-02-03 14:32:15] Detected Disc: Movie_Backup
   [2025-02-03 14:32:15] Used Space: 3.45 GB
-  [2025-02-03 14:32:15] Destination Folder: C:\DVD_Backups\Movie_Backup
+  [2025-02-03 14:32:15] Destination Folder: C:\DVD_Backups\XXX_Backup
   [2025-02-03 14:45:52] Copy completed successfully.
   [2025-02-03 14:45:52] Destination Folder Size: 3.45 GB
   [2025-02-03 14:45:54] Beep sound notifying user!
@@ -82,3 +82,4 @@ Notes
   The script uses robocopy for copying, which is optimized for large file transfers.
   Destination folder names are based on the DVD’s volume label.
   The log file is saved in the same directory as the script.
+  You can also run multiple instances of this script simultaneously if you have multiple optical drives.
