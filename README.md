@@ -1,10 +1,11 @@
-# Buld_Data_Disk_Copier
+**# Buld_Data_Disk_Copier**
+
 This script automates the process of copying DVD contents to a selected destination folder. It continuously waits for a disc to be inserted, copies its contents, logs the process, and ejects the disc upon completion.
 
-Overview
+**Overview**
   This PowerShell script automates the process of copying DVD contents to a designated destination folder. It continuously monitors the selected DVD drive, detects when a new disc is inserted, copies its contents, logs the process, and ejects the disc upon completion. The script is designed to streamline the archiving of DVDs by minimizing manual intervention.  You can also run multiple instances of this script simultaneously if you have multiple optical drives.
 
-Features
+**Features**
   Automatic Disc Detection: Waits for a new DVD to be inserted and starts the copying process automatically.
   Automated Copy Process: Uses robocopy to copy files efficiently while preserving metadata.
   Beep Notification: Alerts the user with a beep sound when the copying process is complete.
@@ -18,13 +19,13 @@ Features
   Saves logs in a file named DVD_Archive_MM-DD-YY_HH-MM-SS.txt in the script directory.
   Error Handling: Catches and logs errors during the copying process.
 
-Requirements
+**Requirements**
   Windows 10 or later with PowerShell
   A DVD drive with readable discs
   robocopy (built into Windows)
   PowerShell execution policy set to allow script execution
   
-How It Works
+**How It Works**
 
 Drive Selection:
   The script detects available CD/DVD drives.
